@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<RDBSchema:RDBTable xmi:version="2.0" xmlns:xmi="http://www.omg.org/XMI" xmlns:RDBSchema="RDBSchema.xmi" xmi:id="RDBTable_1068200249469" name="USERGROUPS" primaryKey="SQLReference_1068200249484">
+  <database href="ConToPassportDB_PASSPORT.dbxmi#RDBDatabase_1068200249422"/>
+  <schema href="ConToPassportDB_PASSPORT_PASSPORTIZATION.schxmi#RDBSchema_1068200249422"/>
+  <columns xmi:type="RDBSchema:RDBColumn" xmi:id="RDBColumn_1068200249484" name="USERGROUPID" allowNull="false">
+    <type xmi:type="RDBSchema:SQLExactNumeric" xmi:id="SQLExactNumeric_1068200249484">
+      <originatingType xmi:type="RDBSchema:SQLExactNumeric" href="DB2UDBNT_V72_Primitives.xmi#SQLExactNumeric_1"/>
+    </type>
+  </columns>
+  <columns xmi:type="RDBSchema:RDBColumn" xmi:id="RDBColumn_1068200249485" name="FD" allowNull="true">
+    <type xmi:type="RDBSchema:SQLDate" xmi:id="SQLDate_1068200249484">
+      <originatingType xmi:type="RDBSchema:SQLDate" href="DB2UDBNT_V72_Primitives.xmi#SQLDate_1"/>
+    </type>
+  </columns>
+  <columns xmi:type="RDBSchema:RDBColumn" xmi:id="RDBColumn_1068200249486" name="CAPTION" allowNull="true">
+    <type xmi:type="RDBSchema:SQLCharacterStringType" xmi:id="SQLCharacterStringType_1068200249484" characterSet="800" length="255">
+      <originatingType xmi:type="RDBSchema:SQLCharacterStringType" href="DB2UDBNT_V72_Primitives.xmi#SQLCharacterStringType_3"/>
+    </type>
+  </columns>
+  <namedGroup xmi:type="RDBSchema:SQLReference" xmi:id="SQLReference_1068200249484" name="SQL031107130749480" members="RDBColumn_1068200249484" constraint="SQLConstraint_1068200249484">
+    <referenceByKey href="ConToPassportDB_PASSPORT_PASSPORTIZATION_USERGROUPSPERMISSIONS.tblxmi#RDBReferenceByKey_1068200249484"/>
+  </namedGroup>
+  <constraints xmi:id="SQLConstraint_1068200249484" name="SQL031107130749480" type="PRIMARYKEY" primaryKey="SQLReference_1068200249484"/>
+</RDBSchema:RDBTable>

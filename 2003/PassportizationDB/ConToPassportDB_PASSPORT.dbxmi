@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<RDBSchema:RDBDatabase xmi:version="2.0" xmlns:xmi="http://www.omg.org/XMI" xmlns:RDBSchema="RDBSchema.xmi" xmlns:RLogic="RLogic.xmi" xmi:id="RDBDatabase_1068200249422" name="PASSPORT">
+  <rlCon href="PASSPORT_ConToPassportDB.rlconxmi#RLDBConnection_1068200249672"/>
+  <schemata href="ConToPassportDB_PASSPORT_PASSPORTIZATION.schxmi#RDBSchema_1068200249422"/>
+  <tableGroup xmi:type="RDBSchema:RDBTable" href="ConToPassportDB_PASSPORT_PASSPORTIZATION_CLASSIFIERS.tblxmi#RDBTable_1068200249547"/>
+  <tableGroup xmi:type="RDBSchema:RDBTable" href="ConToPassportDB_PASSPORT_PASSPORTIZATION_FACTORGROUPS.tblxmi#RDBTable_1068200249406"/>
+  <tableGroup xmi:type="RDBSchema:RDBTable" href="ConToPassportDB_PASSPORT_PASSPORTIZATION_FACTORS.tblxmi#RDBTable_1068200249562"/>
+  <tableGroup xmi:type="RDBSchema:RDBTable" href="ConToPassportDB_PASSPORT_PASSPORTIZATION_FORMSSECTIONS.tblxmi#RDBTable_1068200249578"/>
+  <tableGroup xmi:type="RDBSchema:RDBTable" href="ConToPassportDB_PASSPORT_PASSPORTIZATION_INPUTFORMS.tblxmi#RDBTable_1068200249594"/>
+  <tableGroup xmi:type="RDBSchema:RDBTable" href="ConToPassportDB_PASSPORT_PASSPORTIZATION_INPUTFORMSFACTORS.tblxmi#RDBTable_1068200249609"/>
+  <tableGroup xmi:type="RDBSchema:RDBTable" href="ConToPassportDB_PASSPORT_PASSPORTIZATION_PASSPORTFACTORS.tblxmi#RDBTable_1068200249625"/>
+  <tableGroup xmi:type="RDBSchema:RDBTable" href="ConToPassportDB_PASSPORT_PASSPORTIZATION_PASSPORTS.tblxmi#RDBTable_1068200249625"/>
+  <tableGroup xmi:type="RDBSchema:RDBTable" href="ConToPassportDB_PASSPORT_PASSPORTIZATION_SUBTOPICS.tblxmi#RDBTable_1068200249500"/>
+  <tableGroup xmi:type="RDBSchema:RDBTable" href="ConToPassportDB_PASSPORT_PASSPORTIZATION_SYSTEMPERMISSIONS.tblxmi#RDBTable_1068200249422"/>
+  <tableGroup xmi:type="RDBSchema:RDBTable" href="ConToPassportDB_PASSPORT_PASSPORTIZATION_TERRITORIAIOFFICES.tblxmi#RDBTable_1068200249438"/>
+  <tableGroup xmi:type="RDBSchema:RDBTable" href="ConToPassportDB_PASSPORT_PASSPORTIZATION_TOPICS.tblxmi#RDBTable_1068200249469"/>
+  <tableGroup xmi:type="RDBSchema:RDBTable" href="ConToPassportDB_PASSPORT_PASSPORTIZATION_USERGROUPS.tblxmi#RDBTable_1068200249469"/>
+  <tableGroup xmi:type="RDBSchema:RDBTable" href="ConToPassportDB_PASSPORT_PASSPORTIZATION_USERGROUPSPERMISSIONS.tblxmi#RDBTable_1068200249516"/>
+  <tableGroup xmi:type="RDBSchema:RDBTable" href="ConToPassportDB_PASSPORT_PASSPORTIZATION_USERPERMISSIONS.tblxmi#RDBTable_1068200249531"/>
+  <tableGroup xmi:type="RDBSchema:RDBTable" href="ConToPassportDB_PASSPORT_PASSPORTIZATION_USERS.tblxmi#RDBTable_1068200249484"/>
+  <connection href="ConToPassportDB.conxmi#RDBConnection_1068200249672"/>
+  <domain href="DB2UDBNT_V72_Domain.xmi#SQLVendor_1"/>
+</RDBSchema:RDBDatabase>

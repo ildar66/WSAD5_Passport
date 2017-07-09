@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<RDBSchema:RDBConnection xmi:version="2.0" xmlns:xmi="http://www.omg.org/XMI" xmlns:RDBSchema="RDBSchema.xmi" xmi:id="RDBConnection_1068200249672" name="ConToPassportDB" userid="" url="jdbc:db2:PASSPORT" host="" driver="COM.ibm.db2.jdbc.app.DB2Driver" otherDriver="COM.ibm.db2.jdbc.app.DB2Driver" dbName="PASSPORT">
+  <classLocation>D:\Program Files\SQLLIB\java\db2java.zip</classLocation>
+  <database href="ConToPassportDB_PASSPORT.dbxmi#RDBDatabase_1068200249422"/>
+  <filter xmi:id="RDBConnectionFilter_1068200249688" languageType="15">
+    <filterElement xmi:id="FilterElement_1068200249688" enabled="true" target="SCHEMA" text="SYS%" predicate="NOT_LIKE" operator="AND"/>
+  </filter>
+  <jdbcDriver href="DB2UDBNT_V72_Domain.xmi#JDBCDriver_2"/>
+</RDBSchema:RDBConnection>

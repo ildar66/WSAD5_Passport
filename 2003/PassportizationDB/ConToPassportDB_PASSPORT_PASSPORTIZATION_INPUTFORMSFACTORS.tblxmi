@@ -1,0 +1,35 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<RDBSchema:RDBTable xmi:version="2.0" xmlns:xmi="http://www.omg.org/XMI" xmlns:RDBSchema="RDBSchema.xmi" xmi:id="RDBTable_1068200249609" name="INPUTFORMSFACTORS" primaryKey="SQLReference_1068200249609">
+  <database href="ConToPassportDB_PASSPORT.dbxmi#RDBDatabase_1068200249422"/>
+  <schema href="ConToPassportDB_PASSPORT_PASSPORTIZATION.schxmi#RDBSchema_1068200249422"/>
+  <columns xmi:type="RDBSchema:RDBColumn" xmi:id="RDBColumn_1068200249609" name="INPUTFORMID" allowNull="false">
+    <type xmi:type="RDBSchema:SQLExactNumeric" xmi:id="SQLExactNumeric_1068200249609">
+      <originatingType xmi:type="RDBSchema:SQLExactNumeric" href="DB2UDBNT_V72_Primitives.xmi#SQLExactNumeric_1"/>
+    </type>
+  </columns>
+  <columns xmi:type="RDBSchema:RDBColumn" xmi:id="RDBColumn_1068200249610" name="FACTORID" allowNull="false">
+    <type xmi:type="RDBSchema:SQLExactNumeric" xmi:id="SQLExactNumeric_1068200249610">
+      <originatingType xmi:type="RDBSchema:SQLExactNumeric" href="DB2UDBNT_V72_Primitives.xmi#SQLExactNumeric_1"/>
+    </type>
+  </columns>
+  <columns xmi:type="RDBSchema:RDBColumn" xmi:id="RDBColumn_1068200249611" name="FD" allowNull="true">
+    <type xmi:type="RDBSchema:SQLDate" xmi:id="SQLDate_1068200249609">
+      <originatingType xmi:type="RDBSchema:SQLDate" href="DB2UDBNT_V72_Primitives.xmi#SQLDate_1"/>
+    </type>
+  </columns>
+  <columns xmi:type="RDBSchema:RDBColumn" xmi:id="RDBColumn_1068200249612" name="INPUTTYPE" allowNull="true">
+    <type xmi:type="RDBSchema:SQLExactNumeric" xmi:id="SQLExactNumeric_1068200249611">
+      <originatingType xmi:type="RDBSchema:SQLExactNumeric" href="DB2UDBNT_V72_Primitives.xmi#SQLExactNumeric_1"/>
+    </type>
+  </columns>
+  <namedGroup xmi:type="RDBSchema:SQLReference" xmi:id="SQLReference_1068200249609" name="SQL031107130747590" members="RDBColumn_1068200249609 RDBColumn_1068200249610" constraint="SQLConstraint_1068200249609"/>
+  <namedGroup xmi:type="RDBSchema:RDBReferenceByKey" xmi:id="RDBReferenceByKey_1068200249562" name="SQL031107130750780" onDelete="RESTRICT" onUpdate="RESTRICT" members="RDBColumn_1068200249610" constraint="SQLConstraint_1068200249610">
+    <target href="ConToPassportDB_PASSPORT_PASSPORTIZATION_FACTORS.tblxmi#SQLReference_1068200249562"/>
+  </namedGroup>
+  <namedGroup xmi:type="RDBSchema:RDBReferenceByKey" xmi:id="RDBReferenceByKey_1068200249594" name="SQL031107130750781" onDelete="RESTRICT" onUpdate="RESTRICT" members="RDBColumn_1068200249609" constraint="SQLConstraint_1068200249611">
+    <target href="ConToPassportDB_PASSPORT_PASSPORTIZATION_INPUTFORMS.tblxmi#SQLReference_1068200249578"/>
+  </namedGroup>
+  <constraints xmi:id="SQLConstraint_1068200249609" name="SQL031107130747590" type="PRIMARYKEY" primaryKey="SQLReference_1068200249609"/>
+  <constraints xmi:id="SQLConstraint_1068200249610" name="SQL031107130750780" type="FOREIGNKEY" referenceByKey="RDBReferenceByKey_1068200249562"/>
+  <constraints xmi:id="SQLConstraint_1068200249611" name="SQL031107130750781" type="FOREIGNKEY" referenceByKey="RDBReferenceByKey_1068200249594"/>
+</RDBSchema:RDBTable>

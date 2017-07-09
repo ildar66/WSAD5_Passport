@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<RLogic:RLDBConnection xmi:version="2.0" xmlns:xmi="http://www.omg.org/XMI" xmlns:RLogic="RLogic.xmi" xmlns:RDBSchema="RDBSchema.xmi" xmi:id="RLDBConnection_1068200249672" dbProductName="DB2/NT" dbProductVersion="07.02.0005" offline="false" defaultUserId="true">
+  <rdbDb href="ConToPassportDB_PASSPORT.dbxmi#RDBDatabase_1068200249422"/>
+  <filter xmi:id="RLFilter_1068200249688" name="SP" enabled="true" all="true">
+    <filterElement xmi:id="RLFilterElement_1068200249688" enabled="true" predicate="Language" operator="4">
+      <text> Java SQL C OTHER</text>
+    </filterElement>
+    <filterElement xmi:id="RLFilterElement_1068200249689" enabled="true" predicate="Schema">
+      <text>SYSFUN SYSPROC SYSIBM</text>
+      <operator>not in</operator>
+    </filterElement>
+  </filter>
+  <filter xmi:id="RLFilter_1068200249689" name="UDF" enabled="true" all="true">
+    <filterElement xmi:id="RLFilterElement_1068200249690" enabled="true" predicate="Schema">
+      <text>SYSFUN SYSPROC</text>
+      <operator>not in</operator>
+    </filterElement>
+    <filterElement xmi:id="RLFilterElement_1068200249691" enabled="true" predicate="Language" operator="4">
+      <text> Java SQL C OTHER</text>
+    </filterElement>
+  </filter>
+</RLogic:RLDBConnection>
